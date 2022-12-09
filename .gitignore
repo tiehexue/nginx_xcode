@@ -1,0 +1,6 @@
+build
+**.o
+**.log
+**.pid
+**/objs/nginx
+**/nginx.8

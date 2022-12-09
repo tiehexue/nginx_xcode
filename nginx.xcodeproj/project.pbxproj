@@ -1,0 +1,1445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15448EFA293DA502006E7A8C /* ngx_stream_limit_conn_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC0293DA501006E7A8C /* ngx_stream_limit_conn_module.c */; };
+		15448EFB293DA502006E7A8C /* ngx_stream_set_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC1293DA501006E7A8C /* ngx_stream_set_module.c */; };
+		15448EFC293DA502006E7A8C /* ngx_stream_access_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC2293DA501006E7A8C /* ngx_stream_access_module.c */; };
+		15448EFD293DA502006E7A8C /* ngx_stream_upstream_random_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC4293DA501006E7A8C /* ngx_stream_upstream_random_module.c */; };
+		15448EFE293DA502006E7A8C /* ngx_stream_split_clients_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC6293DA501006E7A8C /* ngx_stream_split_clients_module.c */; };
+		15448EFF293DA502006E7A8C /* ngx_stream_handler.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC7293DA501006E7A8C /* ngx_stream_handler.c */; };
+		15448F00293DA502006E7A8C /* ngx_stream_upstream_zone_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DC8293DA501006E7A8C /* ngx_stream_upstream_zone_module.c */; };
+		15448F01293DA502006E7A8C /* ngx_stream_upstream_least_conn_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DCB293DA501006E7A8C /* ngx_stream_upstream_least_conn_module.c */; };
+		15448F02293DA502006E7A8C /* ngx_stream_core_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DCC293DA501006E7A8C /* ngx_stream_core_module.c */; };
+		15448F03293DA502006E7A8C /* ngx_stream_return_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DCF293DA501006E7A8C /* ngx_stream_return_module.c */; };
+		15448F04293DA502006E7A8C /* ngx_stream_map_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD0293DA501006E7A8C /* ngx_stream_map_module.c */; };
+		15448F05293DA502006E7A8C /* ngx_stream_geo_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD1293DA501006E7A8C /* ngx_stream_geo_module.c */; };
+		15448F06293DA502006E7A8C /* ngx_stream_realip_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD2293DA501006E7A8C /* ngx_stream_realip_module.c */; };
+		15448F07293DA502006E7A8C /* ngx_stream_ssl_preread_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD3293DA501006E7A8C /* ngx_stream_ssl_preread_module.c */; };
+		15448F08293DA502006E7A8C /* ngx_stream_log_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD4293DA501006E7A8C /* ngx_stream_log_module.c */; };
+		15448F0A293DA502006E7A8C /* ngx_stream_variables.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD6293DA501006E7A8C /* ngx_stream_variables.c */; };
+		15448F0B293DA502006E7A8C /* ngx_stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD7293DA501006E7A8C /* ngx_stream.c */; };
+		15448F0C293DA502006E7A8C /* ngx_stream_upstream_round_robin.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DD8293DA501006E7A8C /* ngx_stream_upstream_round_robin.c */; };
+		15448F0E293DA502006E7A8C /* ngx_stream_upstream_hash_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DDA293DA501006E7A8C /* ngx_stream_upstream_hash_module.c */; };
+		15448F0F293DA502006E7A8C /* ngx_stream_proxy_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DDB293DA501006E7A8C /* ngx_stream_proxy_module.c */; };
+		15448F10293DA502006E7A8C /* ngx_stream_write_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DDC293DA501006E7A8C /* ngx_stream_write_filter_module.c */; };
+		15448F11293DA502006E7A8C /* ngx_stream_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DDD293DA501006E7A8C /* ngx_stream_script.c */; };
+		15448F12293DA502006E7A8C /* ngx_stream_upstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DDE293DA501006E7A8C /* ngx_stream_upstream.c */; };
+		15448F14293DA502006E7A8C /* ngx_event_accept.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DE1293DA501006E7A8C /* ngx_event_accept.c */; };
+		15448F16293DA502006E7A8C /* ngx_event_udp.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DE4293DA501006E7A8C /* ngx_event_udp.c */; };
+		15448F18293DA502006E7A8C /* ngx_event_connect.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DE6293DA501006E7A8C /* ngx_event_connect.c */; };
+		15448F1A293DA502006E7A8C /* ngx_event_pipe.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DEA293DA501006E7A8C /* ngx_event_pipe.c */; };
+		15448F1B293DA502006E7A8C /* ngx_event_posted.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DEB293DA501006E7A8C /* ngx_event_posted.c */; };
+		15448F1C293DA502006E7A8C /* ngx_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DEC293DA501006E7A8C /* ngx_event.c */; };
+		15448F1D293DA502006E7A8C /* ngx_event_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DEE293DA501006E7A8C /* ngx_event_timer.c */; };
+		15448F20293DA502006E7A8C /* ngx_kqueue_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DF5293DA501006E7A8C /* ngx_kqueue_module.c */; };
+		15448F27293DA502006E7A8C /* ngx_http_header_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DFE293DA501006E7A8C /* ngx_http_header_filter_module.c */; };
+		15448F28293DA502006E7A8C /* ngx_http_huff_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448DFF293DA501006E7A8C /* ngx_http_huff_decode.c */; };
+		15448F29293DA502006E7A8C /* ngx_http_huff_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E02293DA501006E7A8C /* ngx_http_huff_encode.c */; };
+		15448F2A293DA502006E7A8C /* ngx_http_special_response.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E03293DA501006E7A8C /* ngx_http_special_response.c */; };
+		15448F2B293DA502006E7A8C /* ngx_http.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E04293DA501006E7A8C /* ngx_http.c */; };
+		15448F2C293DA502006E7A8C /* ngx_http_write_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E05293DA501006E7A8C /* ngx_http_write_filter_module.c */; };
+		15448F2D293DA502006E7A8C /* ngx_http_request_body.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E07293DA501006E7A8C /* ngx_http_request_body.c */; };
+		15448F2E293DA502006E7A8C /* ngx_http_postpone_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E08293DA501006E7A8C /* ngx_http_postpone_filter_module.c */; };
+		15448F2F293DA502006E7A8C /* ngx_http_script.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E09293DA501006E7A8C /* ngx_http_script.c */; };
+		15448F30293DA502006E7A8C /* ngx_http_upstream_round_robin.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E0A293DA501006E7A8C /* ngx_http_upstream_round_robin.c */; };
+		15448F31293DA502006E7A8C /* ngx_http_file_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E0C293DA501006E7A8C /* ngx_http_file_cache.c */; };
+		15448F32293DA502006E7A8C /* ngx_http_request.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E0D293DA501006E7A8C /* ngx_http_request.c */; };
+		15448F33293DA502006E7A8C /* ngx_http_v2_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E10293DA501006E7A8C /* ngx_http_v2_encode.c */; };
+		15448F34293DA502006E7A8C /* ngx_http_v2_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E11293DA501006E7A8C /* ngx_http_v2_module.c */; };
+		15448F35293DA502006E7A8C /* ngx_http_v2_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E12293DA501006E7A8C /* ngx_http_v2_filter_module.c */; };
+		15448F36293DA502006E7A8C /* ngx_http_v2_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E13293DA501006E7A8C /* ngx_http_v2_table.c */; };
+		15448F37293DA502006E7A8C /* ngx_http_v2.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E14293DA501006E7A8C /* ngx_http_v2.c */; };
+		15448F38293DA502006E7A8C /* ngx_http_variables.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E16293DA501006E7A8C /* ngx_http_variables.c */; };
+		15448F39293DA502006E7A8C /* ngx_http_core_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E17293DA501006E7A8C /* ngx_http_core_module.c */; };
+		15448F3A293DA502006E7A8C /* ngx_http_upstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E18293DA501006E7A8C /* ngx_http_upstream.c */; };
+		15448F73293DA502006E7A8C /* ngx_http_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E5E293DA501006E7A8C /* ngx_http_parse.c */; };
+		15448F74293DA502006E7A8C /* ngx_http_copy_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448E5F293DA501006E7A8C /* ngx_http_copy_filter_module.c */; };
+		15448FAF293DBD03006E7A8C /* ngx_modules.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FAC293DBD03006E7A8C /* ngx_modules.c */; };
+		15448FD8293DBF8F006E7A8C /* ngx_posix_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FB4293DBF8E006E7A8C /* ngx_posix_init.c */; };
+		15448FD9293DBF8F006E7A8C /* ngx_dlopen.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FB6293DBF8E006E7A8C /* ngx_dlopen.c */; };
+		15448FDA293DBF8F006E7A8C /* ngx_socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FB7293DBF8E006E7A8C /* ngx_socket.c */; };
+		15448FDB293DBF8F006E7A8C /* ngx_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FB9293DBF8E006E7A8C /* ngx_process.c */; };
+		15448FDC293DBF8F006E7A8C /* ngx_shmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FBB293DBF8E006E7A8C /* ngx_shmem.c */; };
+		15448FDD293DBF8F006E7A8C /* ngx_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FBE293DBF8E006E7A8C /* ngx_time.c */; };
+		15448FDE293DBF8F006E7A8C /* ngx_daemon.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FBF293DBF8E006E7A8C /* ngx_daemon.c */; };
+		15448FDF293DBF8F006E7A8C /* ngx_channel.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FC2293DBF8E006E7A8C /* ngx_channel.c */; };
+		15448FE0293DBF8F006E7A8C /* ngx_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FC3293DBF8F006E7A8C /* ngx_alloc.c */; };
+		15448FE1293DBF8F006E7A8C /* ngx_darwin_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FC4293DBF8F006E7A8C /* ngx_darwin_init.c */; };
+		15448FE2293DBF8F006E7A8C /* ngx_errno.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FC5293DBF8F006E7A8C /* ngx_errno.c */; };
+		15448FE3293DBF8F006E7A8C /* ngx_files.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FC8293DBF8F006E7A8C /* ngx_files.c */; };
+		15448FE4293DBF8F006E7A8C /* ngx_darwin_sendfile_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FCA293DBF8F006E7A8C /* ngx_darwin_sendfile_chain.c */; };
+		15448FE5293DBF8F006E7A8C /* ngx_setaffinity.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FCB293DBF8F006E7A8C /* ngx_setaffinity.c */; };
+		15448FE6293DBF8F006E7A8C /* ngx_udp_sendmsg_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FCD293DBF8F006E7A8C /* ngx_udp_sendmsg_chain.c */; };
+		15448FE7293DBF8F006E7A8C /* ngx_user.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FCE293DBF8F006E7A8C /* ngx_user.c */; };
+		15448FE8293DBF8F006E7A8C /* ngx_udp_recv.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FD0293DBF8F006E7A8C /* ngx_udp_recv.c */; };
+		15448FE9293DBF8F006E7A8C /* ngx_setproctitle.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FD1293DBF8F006E7A8C /* ngx_setproctitle.c */; };
+		15448FEA293DBF8F006E7A8C /* ngx_process_cycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FD4293DBF8F006E7A8C /* ngx_process_cycle.c */; };
+		15448FEB293DBF8F006E7A8C /* ngx_recv.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FD6293DBF8F006E7A8C /* ngx_recv.c */; };
+		15448FEC293DBF8F006E7A8C /* ngx_readv_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FD7293DBF8F006E7A8C /* ngx_readv_chain.c */; };
+		15449035293DC1BB006E7A8C /* ngx_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FED293DC1B8006E7A8C /* ngx_queue.c */; };
+		15449036293DC1BB006E7A8C /* ngx_rwlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FEF293DC1B8006E7A8C /* ngx_rwlock.c */; };
+		15449037293DC1BB006E7A8C /* ngx_output_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FF0293DC1B8006E7A8C /* ngx_output_chain.c */; };
+		15449038293DC1BB006E7A8C /* ngx_rbtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FF3293DC1B8006E7A8C /* ngx_rbtree.c */; };
+		15449039293DC1BB006E7A8C /* ngx_cpuinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FF7293DC1B8006E7A8C /* ngx_cpuinfo.c */; };
+		1544903A293DC1BB006E7A8C /* ngx_radix_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FFB293DC1B9006E7A8C /* ngx_radix_tree.c */; };
+		1544903B293DC1BB006E7A8C /* ngx_crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FFC293DC1B9006E7A8C /* ngx_crc32.c */; };
+		1544903C293DC1BB006E7A8C /* ngx_log.c in Sources */ = {isa = PBXBuildFile; fileRef = 15448FFF293DC1B9006E7A8C /* ngx_log.c */; };
+		1544903D293DC1BB006E7A8C /* ngx_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449001293DC1B9006E7A8C /* ngx_buf.c */; };
+		1544903E293DC1BB006E7A8C /* ngx_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449003293DC1B9006E7A8C /* ngx_parse.c */; };
+		1544903F293DC1BB006E7A8C /* ngx_proxy_protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449007293DC1B9006E7A8C /* ngx_proxy_protocol.c */; };
+		15449040293DC1BB006E7A8C /* ngx_times.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544900B293DC1B9006E7A8C /* ngx_times.c */; };
+		15449041293DC1BB006E7A8C /* nginx.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544900D293DC1B9006E7A8C /* nginx.c */; };
+		15449042293DC1BB006E7A8C /* ngx_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449010293DC1BA006E7A8C /* ngx_module.c */; };
+		15449043293DC1BB006E7A8C /* ngx_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449011293DC1BA006E7A8C /* ngx_hash.c */; };
+		15449044293DC1BB006E7A8C /* ngx_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449013293DC1BA006E7A8C /* ngx_file.c */; };
+		15449045293DC1BB006E7A8C /* ngx_palloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449014293DC1BA006E7A8C /* ngx_palloc.c */; };
+		15449046293DC1BB006E7A8C /* ngx_conf_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449015293DC1BA006E7A8C /* ngx_conf_file.c */; };
+		15449047293DC1BB006E7A8C /* ngx_resolver.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449016293DC1BA006E7A8C /* ngx_resolver.c */; };
+		15449048293DC1BB006E7A8C /* ngx_inet.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449019293DC1BA006E7A8C /* ngx_inet.c */; };
+		15449049293DC1BB006E7A8C /* ngx_cycle.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544901B293DC1BA006E7A8C /* ngx_cycle.c */; };
+		1544904A293DC1BB006E7A8C /* ngx_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544901C293DC1BA006E7A8C /* ngx_sha1.c */; };
+		1544904B293DC1BB006E7A8C /* ngx_spinlock.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544901E293DC1BA006E7A8C /* ngx_spinlock.c */; };
+		1544904C293DC1BB006E7A8C /* ngx_murmurhash.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544901F293DC1BA006E7A8C /* ngx_murmurhash.c */; };
+		1544904D293DC1BB006E7A8C /* ngx_md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449020293DC1BA006E7A8C /* ngx_md5.c */; };
+		1544904E293DC1BB006E7A8C /* ngx_parse_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449021293DC1BA006E7A8C /* ngx_parse_time.c */; };
+		1544904F293DC1BB006E7A8C /* ngx_regex.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449022293DC1BA006E7A8C /* ngx_regex.c */; };
+		15449050293DC1BB006E7A8C /* ngx_syslog.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449024293DC1BA006E7A8C /* ngx_syslog.c */; };
+		15449051293DC1BB006E7A8C /* ngx_slab.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449026293DC1BA006E7A8C /* ngx_slab.c */; };
+		15449052293DC1BB006E7A8C /* ngx_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449028293DC1BB006E7A8C /* ngx_string.c */; };
+		15449053293DC1BB006E7A8C /* ngx_shmtx.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449029293DC1BB006E7A8C /* ngx_shmtx.c */; };
+		15449054293DC1BB006E7A8C /* ngx_array.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544902B293DC1BB006E7A8C /* ngx_array.c */; };
+		15449055293DC1BB006E7A8C /* ngx_open_file_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544902C293DC1BB006E7A8C /* ngx_open_file_cache.c */; };
+		15449056293DC1BB006E7A8C /* ngx_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449031293DC1BB006E7A8C /* ngx_list.c */; };
+		15449057293DC1BB006E7A8C /* ngx_crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449032293DC1BB006E7A8C /* ngx_crypt.c */; };
+		15449058293DC1BB006E7A8C /* ngx_connection.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449033293DC1BB006E7A8C /* ngx_connection.c */; };
+		15449081293DC68E006E7A8C /* ngx_http_limit_conn_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449059293DC68D006E7A8C /* ngx_http_limit_conn_module.c */; };
+		15449082293DC68E006E7A8C /* ngx_http_limit_req_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905A293DC68D006E7A8C /* ngx_http_limit_req_module.c */; };
+		15449083293DC68E006E7A8C /* ngx_http_headers_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905B293DC68D006E7A8C /* ngx_http_headers_filter_module.c */; };
+		15449084293DC68E006E7A8C /* ngx_http_auth_basic_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905C293DC68D006E7A8C /* ngx_http_auth_basic_module.c */; };
+		15449085293DC68E006E7A8C /* ngx_http_upstream_zone_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905D293DC68D006E7A8C /* ngx_http_upstream_zone_module.c */; };
+		15449086293DC68E006E7A8C /* ngx_http_uwsgi_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905E293DC68D006E7A8C /* ngx_http_uwsgi_module.c */; };
+		15449087293DC68E006E7A8C /* ngx_http_auth_request_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544905F293DC68D006E7A8C /* ngx_http_auth_request_module.c */; };
+		15449088293DC68E006E7A8C /* ngx_http_upstream_keepalive_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449060293DC68D006E7A8C /* ngx_http_upstream_keepalive_module.c */; };
+		15449089293DC68E006E7A8C /* ngx_http_fastcgi_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449062293DC68D006E7A8C /* ngx_http_fastcgi_module.c */; };
+		1544908A293DC68E006E7A8C /* ngx_http_chunked_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449063293DC68D006E7A8C /* ngx_http_chunked_filter_module.c */; };
+		1544908B293DC68E006E7A8C /* ngx_http_referer_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449064293DC68D006E7A8C /* ngx_http_referer_module.c */; };
+		1544908C293DC68E006E7A8C /* ngx_http_split_clients_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449065293DC68D006E7A8C /* ngx_http_split_clients_module.c */; };
+		1544908D293DC68E006E7A8C /* ngx_http_userid_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449066293DC68D006E7A8C /* ngx_http_userid_filter_module.c */; };
+		1544908E293DC68E006E7A8C /* ngx_http_ssi_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449067293DC68D006E7A8C /* ngx_http_ssi_filter_module.c */; };
+		1544908F293DC68E006E7A8C /* ngx_http_geo_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449068293DC68D006E7A8C /* ngx_http_geo_module.c */; };
+		15449090293DC68E006E7A8C /* ngx_http_upstream_ip_hash_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449069293DC68D006E7A8C /* ngx_http_upstream_ip_hash_module.c */; };
+		15449091293DC68E006E7A8C /* ngx_http_gzip_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906A293DC68D006E7A8C /* ngx_http_gzip_filter_module.c */; };
+		15449092293DC68E006E7A8C /* ngx_http_static_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906B293DC68D006E7A8C /* ngx_http_static_module.c */; };
+		15449093293DC68E006E7A8C /* ngx_http_log_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906C293DC68D006E7A8C /* ngx_http_log_module.c */; };
+		15449094293DC68E006E7A8C /* ngx_http_upstream_least_conn_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906D293DC68D006E7A8C /* ngx_http_upstream_least_conn_module.c */; };
+		15449095293DC68E006E7A8C /* ngx_http_access_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906E293DC68D006E7A8C /* ngx_http_access_module.c */; };
+		15449096293DC68E006E7A8C /* ngx_http_upstream_random_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544906F293DC68E006E7A8C /* ngx_http_upstream_random_module.c */; };
+		15449097293DC68E006E7A8C /* ngx_http_random_index_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449070293DC68E006E7A8C /* ngx_http_random_index_module.c */; };
+		15449098293DC68E006E7A8C /* ngx_http_charset_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449071293DC68E006E7A8C /* ngx_http_charset_filter_module.c */; };
+		15449099293DC68E006E7A8C /* ngx_http_autoindex_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449072293DC68E006E7A8C /* ngx_http_autoindex_module.c */; };
+		1544909A293DC68E006E7A8C /* ngx_http_proxy_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449073293DC68E006E7A8C /* ngx_http_proxy_module.c */; };
+		1544909B293DC68E006E7A8C /* ngx_http_scgi_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449074293DC68E006E7A8C /* ngx_http_scgi_module.c */; };
+		1544909C293DC68E006E7A8C /* ngx_http_empty_gif_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449075293DC68E006E7A8C /* ngx_http_empty_gif_module.c */; };
+		1544909D293DC68E006E7A8C /* ngx_http_try_files_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449076293DC68E006E7A8C /* ngx_http_try_files_module.c */; };
+		1544909E293DC68E006E7A8C /* ngx_http_upstream_hash_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449077293DC68E006E7A8C /* ngx_http_upstream_hash_module.c */; };
+		1544909F293DC68E006E7A8C /* ngx_http_rewrite_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449078293DC68E006E7A8C /* ngx_http_rewrite_module.c */; };
+		154490A0293DC68E006E7A8C /* ngx_http_index_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449079293DC68E006E7A8C /* ngx_http_index_module.c */; };
+		154490A1293DC68E006E7A8C /* ngx_http_grpc_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907A293DC68E006E7A8C /* ngx_http_grpc_module.c */; };
+		154490A2293DC68E006E7A8C /* ngx_http_memcached_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907B293DC68E006E7A8C /* ngx_http_memcached_module.c */; };
+		154490A3293DC68E006E7A8C /* ngx_http_mirror_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907C293DC68E006E7A8C /* ngx_http_mirror_module.c */; };
+		154490A4293DC68E006E7A8C /* ngx_http_not_modified_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907D293DC68E006E7A8C /* ngx_http_not_modified_filter_module.c */; };
+		154490A5293DC68E006E7A8C /* ngx_http_range_filter_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907E293DC68E006E7A8C /* ngx_http_range_filter_module.c */; };
+		154490A6293DC68E006E7A8C /* ngx_http_browser_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 1544907F293DC68E006E7A8C /* ngx_http_browser_module.c */; };
+		154490A7293DC68E006E7A8C /* ngx_http_map_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 15449080293DC68E006E7A8C /* ngx_http_map_module.c */; };
+		154490AD293DC823006E7A8C /* libpcre2-8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 154490AC293DC823006E7A8C /* libpcre2-8.0.dylib */; };
+		154490B0293DC8D6006E7A8C /* ngx_udp_send.c in Sources */ = {isa = PBXBuildFile; fileRef = 154490AE293DC8D6006E7A8C /* ngx_udp_send.c */; };
+		154490B1293DC8D6006E7A8C /* ngx_writev_chain.c in Sources */ = {isa = PBXBuildFile; fileRef = 154490AF293DC8D6006E7A8C /* ngx_writev_chain.c */; };
+		154490B3293DC932006E7A8C /* ngx_send.c in Sources */ = {isa = PBXBuildFile; fileRef = 154490B2293DC932006E7A8C /* ngx_send.c */; };
+		158A57E8293D8B9700C51292 /* web.c in Sources */ = {isa = PBXBuildFile; fileRef = 158A57DF293D8B9700C51292 /* web.c */; };
+		158A57E9293D8B9700C51292 /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = 158A57E0293D8B9700C51292 /* hash.c */; };
+		158A57EB293D8B9700C51292 /* crc_table.c in Sources */ = {isa = PBXBuildFile; fileRef = 158A57E3293D8B9700C51292 /* crc_table.c */; };
+		158A57EC293D8B9700C51292 /* nginx_learn.c in Sources */ = {isa = PBXBuildFile; fileRef = 158A57E4293D8B9700C51292 /* nginx_learn.c */; };
+		158A57EE293D8B9700C51292 /* event_darwin.c in Sources */ = {isa = PBXBuildFile; fileRef = 158A57E6293D8B9700C51292 /* event_darwin.c */; };
+		158C30CD293DE08600A78C83 /* ngx_http_mysql_module_impl.c in Sources */ = {isa = PBXBuildFile; fileRef = 158C30C6293DE08600A78C83 /* ngx_http_mysql_module_impl.c */; };
+		158C30CF293DE08600A78C83 /* ngx_quick_link.c in Sources */ = {isa = PBXBuildFile; fileRef = 158C30CA293DE08600A78C83 /* ngx_quick_link.c */; };
+		158C30D0293DE08600A78C83 /* ngx_http_mysql_module.c in Sources */ = {isa = PBXBuildFile; fileRef = 158C30CB293DE08600A78C83 /* ngx_http_mysql_module.c */; };
+		158C30D2293DE17500A78C83 /* libmysqlclient.21.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 158C30D1293DE17500A78C83 /* libmysqlclient.21.dylib */; };
+		158C322C293DF25B00A78C83 /* ngx_quick_link.c in Sources */ = {isa = PBXBuildFile; fileRef = 158C30CA293DE08600A78C83 /* ngx_quick_link.c */; };
+		158C322E293DFA2100A78C83 /* ngx_quick_link_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 158C322D293DFA2100A78C83 /* ngx_quick_link_test.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15448AEF293DA3DA006E7A8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		158A57D5293D8B6300C51292 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		158C3226293DF0A000A78C83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15448AF1293DA3DA006E7A8C /* nginx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nginx; sourceTree = BUILT_PRODUCTS_DIR; };
+		15448DC0293DA501006E7A8C /* ngx_stream_limit_conn_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_limit_conn_module.c; sourceTree = "<group>"; };
+		15448DC1293DA501006E7A8C /* ngx_stream_set_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_set_module.c; sourceTree = "<group>"; };
+		15448DC2293DA501006E7A8C /* ngx_stream_access_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_access_module.c; sourceTree = "<group>"; };
+		15448DC4293DA501006E7A8C /* ngx_stream_upstream_random_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream_random_module.c; sourceTree = "<group>"; };
+		15448DC5293DA501006E7A8C /* ngx_stream_upstream_round_robin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_stream_upstream_round_robin.h; sourceTree = "<group>"; };
+		15448DC6293DA501006E7A8C /* ngx_stream_split_clients_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_split_clients_module.c; sourceTree = "<group>"; };
+		15448DC7293DA501006E7A8C /* ngx_stream_handler.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_handler.c; sourceTree = "<group>"; };
+		15448DC8293DA501006E7A8C /* ngx_stream_upstream_zone_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream_zone_module.c; sourceTree = "<group>"; };
+		15448DC9293DA501006E7A8C /* ngx_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_stream.h; sourceTree = "<group>"; };
+		15448DCA293DA501006E7A8C /* ngx_stream_variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_stream_variables.h; sourceTree = "<group>"; };
+		15448DCB293DA501006E7A8C /* ngx_stream_upstream_least_conn_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream_least_conn_module.c; sourceTree = "<group>"; };
+		15448DCC293DA501006E7A8C /* ngx_stream_core_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_core_module.c; sourceTree = "<group>"; };
+		15448DCD293DA501006E7A8C /* ngx_stream_script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_stream_script.h; sourceTree = "<group>"; };
+		15448DCE293DA501006E7A8C /* ngx_stream_upstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_stream_upstream.h; sourceTree = "<group>"; };
+		15448DCF293DA501006E7A8C /* ngx_stream_return_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_return_module.c; sourceTree = "<group>"; };
+		15448DD0293DA501006E7A8C /* ngx_stream_map_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_map_module.c; sourceTree = "<group>"; };
+		15448DD1293DA501006E7A8C /* ngx_stream_geo_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_geo_module.c; sourceTree = "<group>"; };
+		15448DD2293DA501006E7A8C /* ngx_stream_realip_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_realip_module.c; sourceTree = "<group>"; };
+		15448DD3293DA501006E7A8C /* ngx_stream_ssl_preread_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_ssl_preread_module.c; sourceTree = "<group>"; };
+		15448DD4293DA501006E7A8C /* ngx_stream_log_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_log_module.c; sourceTree = "<group>"; };
+		15448DD6293DA501006E7A8C /* ngx_stream_variables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_variables.c; sourceTree = "<group>"; };
+		15448DD7293DA501006E7A8C /* ngx_stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream.c; sourceTree = "<group>"; };
+		15448DD8293DA501006E7A8C /* ngx_stream_upstream_round_robin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream_round_robin.c; sourceTree = "<group>"; };
+		15448DDA293DA501006E7A8C /* ngx_stream_upstream_hash_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream_hash_module.c; sourceTree = "<group>"; };
+		15448DDB293DA501006E7A8C /* ngx_stream_proxy_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_proxy_module.c; sourceTree = "<group>"; };
+		15448DDC293DA501006E7A8C /* ngx_stream_write_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_write_filter_module.c; sourceTree = "<group>"; };
+		15448DDD293DA501006E7A8C /* ngx_stream_script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_script.c; sourceTree = "<group>"; };
+		15448DDE293DA501006E7A8C /* ngx_stream_upstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_stream_upstream.c; sourceTree = "<group>"; };
+		15448DE1293DA501006E7A8C /* ngx_event_accept.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_accept.c; sourceTree = "<group>"; };
+		15448DE2293DA501006E7A8C /* ngx_event_posted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event_posted.h; sourceTree = "<group>"; };
+		15448DE4293DA501006E7A8C /* ngx_event_udp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_udp.c; sourceTree = "<group>"; };
+		15448DE6293DA501006E7A8C /* ngx_event_connect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_connect.c; sourceTree = "<group>"; };
+		15448DE7293DA501006E7A8C /* ngx_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event.h; sourceTree = "<group>"; };
+		15448DE8293DA501006E7A8C /* ngx_event_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event_timer.h; sourceTree = "<group>"; };
+		15448DEA293DA501006E7A8C /* ngx_event_pipe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_pipe.c; sourceTree = "<group>"; };
+		15448DEB293DA501006E7A8C /* ngx_event_posted.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_posted.c; sourceTree = "<group>"; };
+		15448DEC293DA501006E7A8C /* ngx_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event.c; sourceTree = "<group>"; };
+		15448DEE293DA501006E7A8C /* ngx_event_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_event_timer.c; sourceTree = "<group>"; };
+		15448DEF293DA501006E7A8C /* ngx_event_connect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event_connect.h; sourceTree = "<group>"; };
+		15448DF0293DA501006E7A8C /* ngx_event_udp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event_udp.h; sourceTree = "<group>"; };
+		15448DF5293DA501006E7A8C /* ngx_kqueue_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_kqueue_module.c; sourceTree = "<group>"; };
+		15448DFC293DA501006E7A8C /* ngx_event_pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_event_pipe.h; sourceTree = "<group>"; };
+		15448DFE293DA501006E7A8C /* ngx_http_header_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_header_filter_module.c; sourceTree = "<group>"; };
+		15448DFF293DA501006E7A8C /* ngx_http_huff_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_huff_decode.c; sourceTree = "<group>"; };
+		15448E00293DA501006E7A8C /* ngx_http_core_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_core_module.h; sourceTree = "<group>"; };
+		15448E01293DA501006E7A8C /* ngx_http_variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_variables.h; sourceTree = "<group>"; };
+		15448E02293DA501006E7A8C /* ngx_http_huff_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_huff_encode.c; sourceTree = "<group>"; };
+		15448E03293DA501006E7A8C /* ngx_http_special_response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_special_response.c; sourceTree = "<group>"; };
+		15448E04293DA501006E7A8C /* ngx_http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http.c; sourceTree = "<group>"; };
+		15448E05293DA501006E7A8C /* ngx_http_write_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_write_filter_module.c; sourceTree = "<group>"; };
+		15448E06293DA501006E7A8C /* ngx_http_upstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_upstream.h; sourceTree = "<group>"; };
+		15448E07293DA501006E7A8C /* ngx_http_request_body.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_request_body.c; sourceTree = "<group>"; };
+		15448E08293DA501006E7A8C /* ngx_http_postpone_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_postpone_filter_module.c; sourceTree = "<group>"; };
+		15448E09293DA501006E7A8C /* ngx_http_script.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_script.c; sourceTree = "<group>"; };
+		15448E0A293DA501006E7A8C /* ngx_http_upstream_round_robin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_round_robin.c; sourceTree = "<group>"; };
+		15448E0B293DA501006E7A8C /* ngx_http_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_cache.h; sourceTree = "<group>"; };
+		15448E0C293DA501006E7A8C /* ngx_http_file_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_file_cache.c; sourceTree = "<group>"; };
+		15448E0D293DA501006E7A8C /* ngx_http_request.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_request.c; sourceTree = "<group>"; };
+		15448E0F293DA501006E7A8C /* ngx_http_v2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_v2.h; sourceTree = "<group>"; };
+		15448E10293DA501006E7A8C /* ngx_http_v2_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_v2_encode.c; sourceTree = "<group>"; };
+		15448E11293DA501006E7A8C /* ngx_http_v2_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_v2_module.c; sourceTree = "<group>"; };
+		15448E12293DA501006E7A8C /* ngx_http_v2_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_v2_filter_module.c; sourceTree = "<group>"; };
+		15448E13293DA501006E7A8C /* ngx_http_v2_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_v2_table.c; sourceTree = "<group>"; };
+		15448E14293DA501006E7A8C /* ngx_http_v2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_v2.c; sourceTree = "<group>"; };
+		15448E15293DA501006E7A8C /* ngx_http_v2_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_v2_module.h; sourceTree = "<group>"; };
+		15448E16293DA501006E7A8C /* ngx_http_variables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_variables.c; sourceTree = "<group>"; };
+		15448E17293DA501006E7A8C /* ngx_http_core_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_core_module.c; sourceTree = "<group>"; };
+		15448E18293DA501006E7A8C /* ngx_http_upstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream.c; sourceTree = "<group>"; };
+		15448E19293DA501006E7A8C /* ngx_http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http.h; sourceTree = "<group>"; };
+		15448E1A293DA501006E7A8C /* ngx_http_upstream_round_robin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_upstream_round_robin.h; sourceTree = "<group>"; };
+		15448E1B293DA501006E7A8C /* ngx_http_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_config.h; sourceTree = "<group>"; };
+		15448E1C293DA501006E7A8C /* ngx_http_script.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_script.h; sourceTree = "<group>"; };
+		15448E5E293DA501006E7A8C /* ngx_http_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_parse.c; sourceTree = "<group>"; };
+		15448E5F293DA501006E7A8C /* ngx_http_copy_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_copy_filter_module.c; sourceTree = "<group>"; };
+		15448E60293DA501006E7A8C /* ngx_http_request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_request.h; sourceTree = "<group>"; };
+		15448FAC293DBD03006E7A8C /* ngx_modules.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ngx_modules.c; path = "nginx-1.23.2/objs/ngx_modules.c"; sourceTree = SOURCE_ROOT; };
+		15448FAD293DBD03006E7A8C /* ngx_auto_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ngx_auto_config.h; path = "nginx-1.23.2/objs/ngx_auto_config.h"; sourceTree = SOURCE_ROOT; };
+		15448FAE293DBD03006E7A8C /* ngx_auto_headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ngx_auto_headers.h; path = "nginx-1.23.2/objs/ngx_auto_headers.h"; sourceTree = SOURCE_ROOT; };
+		15448FB0293DBF8E006E7A8C /* ngx_process_cycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_process_cycle.h; sourceTree = "<group>"; };
+		15448FB1293DBF8E006E7A8C /* ngx_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_alloc.h; sourceTree = "<group>"; };
+		15448FB2293DBF8E006E7A8C /* ngx_files.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_files.h; sourceTree = "<group>"; };
+		15448FB3293DBF8E006E7A8C /* ngx_errno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_errno.h; sourceTree = "<group>"; };
+		15448FB4293DBF8E006E7A8C /* ngx_posix_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_posix_init.c; sourceTree = "<group>"; };
+		15448FB5293DBF8E006E7A8C /* ngx_darwin_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_darwin_config.h; sourceTree = "<group>"; };
+		15448FB6293DBF8E006E7A8C /* ngx_dlopen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_dlopen.c; sourceTree = "<group>"; };
+		15448FB7293DBF8E006E7A8C /* ngx_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_socket.c; sourceTree = "<group>"; };
+		15448FB8293DBF8E006E7A8C /* ngx_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_socket.h; sourceTree = "<group>"; };
+		15448FB9293DBF8E006E7A8C /* ngx_process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_process.c; sourceTree = "<group>"; };
+		15448FBA293DBF8E006E7A8C /* ngx_channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_channel.h; sourceTree = "<group>"; };
+		15448FBB293DBF8E006E7A8C /* ngx_shmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_shmem.c; sourceTree = "<group>"; };
+		15448FBC293DBF8E006E7A8C /* ngx_gcc_atomic_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_gcc_atomic_x86.h; sourceTree = "<group>"; };
+		15448FBD293DBF8E006E7A8C /* ngx_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_time.h; sourceTree = "<group>"; };
+		15448FBE293DBF8E006E7A8C /* ngx_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_time.c; sourceTree = "<group>"; };
+		15448FBF293DBF8E006E7A8C /* ngx_daemon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_daemon.c; sourceTree = "<group>"; };
+		15448FC0293DBF8E006E7A8C /* ngx_process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_process.h; sourceTree = "<group>"; };
+		15448FC1293DBF8E006E7A8C /* ngx_os.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_os.h; sourceTree = "<group>"; };
+		15448FC2293DBF8E006E7A8C /* ngx_channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_channel.c; sourceTree = "<group>"; };
+		15448FC3293DBF8F006E7A8C /* ngx_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_alloc.c; sourceTree = "<group>"; };
+		15448FC4293DBF8F006E7A8C /* ngx_darwin_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_darwin_init.c; sourceTree = "<group>"; };
+		15448FC5293DBF8F006E7A8C /* ngx_errno.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_errno.c; sourceTree = "<group>"; };
+		15448FC6293DBF8F006E7A8C /* ngx_dlopen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_dlopen.h; sourceTree = "<group>"; };
+		15448FC7293DBF8F006E7A8C /* ngx_atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_atomic.h; sourceTree = "<group>"; };
+		15448FC8293DBF8F006E7A8C /* ngx_files.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_files.c; sourceTree = "<group>"; };
+		15448FC9293DBF8F006E7A8C /* ngx_setproctitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_setproctitle.h; sourceTree = "<group>"; };
+		15448FCA293DBF8F006E7A8C /* ngx_darwin_sendfile_chain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_darwin_sendfile_chain.c; sourceTree = "<group>"; };
+		15448FCB293DBF8F006E7A8C /* ngx_setaffinity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_setaffinity.c; sourceTree = "<group>"; };
+		15448FCC293DBF8F006E7A8C /* ngx_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_thread.h; sourceTree = "<group>"; };
+		15448FCD293DBF8F006E7A8C /* ngx_udp_sendmsg_chain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_udp_sendmsg_chain.c; sourceTree = "<group>"; };
+		15448FCE293DBF8F006E7A8C /* ngx_user.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_user.c; sourceTree = "<group>"; };
+		15448FCF293DBF8F006E7A8C /* ngx_user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_user.h; sourceTree = "<group>"; };
+		15448FD0293DBF8F006E7A8C /* ngx_udp_recv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_udp_recv.c; sourceTree = "<group>"; };
+		15448FD1293DBF8F006E7A8C /* ngx_setproctitle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_setproctitle.c; sourceTree = "<group>"; };
+		15448FD2293DBF8F006E7A8C /* ngx_darwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_darwin.h; sourceTree = "<group>"; };
+		15448FD3293DBF8F006E7A8C /* ngx_shmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_shmem.h; sourceTree = "<group>"; };
+		15448FD4293DBF8F006E7A8C /* ngx_process_cycle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_process_cycle.c; sourceTree = "<group>"; };
+		15448FD5293DBF8F006E7A8C /* ngx_setaffinity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_setaffinity.h; sourceTree = "<group>"; };
+		15448FD6293DBF8F006E7A8C /* ngx_recv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_recv.c; sourceTree = "<group>"; };
+		15448FD7293DBF8F006E7A8C /* ngx_readv_chain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_readv_chain.c; sourceTree = "<group>"; };
+		15448FED293DC1B8006E7A8C /* ngx_queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_queue.c; sourceTree = "<group>"; };
+		15448FEE293DC1B8006E7A8C /* ngx_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_sha1.h; sourceTree = "<group>"; };
+		15448FEF293DC1B8006E7A8C /* ngx_rwlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_rwlock.c; sourceTree = "<group>"; };
+		15448FF0293DC1B8006E7A8C /* ngx_output_chain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_output_chain.c; sourceTree = "<group>"; };
+		15448FF1293DC1B8006E7A8C /* ngx_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_config.h; sourceTree = "<group>"; };
+		15448FF2293DC1B8006E7A8C /* ngx_open_file_cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_open_file_cache.h; sourceTree = "<group>"; };
+		15448FF3293DC1B8006E7A8C /* ngx_rbtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_rbtree.c; sourceTree = "<group>"; };
+		15448FF4293DC1B8006E7A8C /* ngx_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_buf.h; sourceTree = "<group>"; };
+		15448FF5293DC1B8006E7A8C /* ngx_crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_crypt.h; sourceTree = "<group>"; };
+		15448FF6293DC1B8006E7A8C /* ngx_times.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_times.h; sourceTree = "<group>"; };
+		15448FF7293DC1B8006E7A8C /* ngx_cpuinfo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_cpuinfo.c; sourceTree = "<group>"; };
+		15448FF8293DC1B9006E7A8C /* ngx_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_log.h; sourceTree = "<group>"; };
+		15448FF9293DC1B9006E7A8C /* ngx_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_module.h; sourceTree = "<group>"; };
+		15448FFA293DC1B9006E7A8C /* ngx_radix_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_radix_tree.h; sourceTree = "<group>"; };
+		15448FFB293DC1B9006E7A8C /* ngx_radix_tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_radix_tree.c; sourceTree = "<group>"; };
+		15448FFC293DC1B9006E7A8C /* ngx_crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_crc32.c; sourceTree = "<group>"; };
+		15448FFD293DC1B9006E7A8C /* ngx_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_array.h; sourceTree = "<group>"; };
+		15448FFE293DC1B9006E7A8C /* ngx_cycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_cycle.h; sourceTree = "<group>"; };
+		15448FFF293DC1B9006E7A8C /* ngx_log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_log.c; sourceTree = "<group>"; };
+		15449000293DC1B9006E7A8C /* ngx_regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_regex.h; sourceTree = "<group>"; };
+		15449001293DC1B9006E7A8C /* ngx_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_buf.c; sourceTree = "<group>"; };
+		15449002293DC1B9006E7A8C /* ngx_proxy_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_proxy_protocol.h; sourceTree = "<group>"; };
+		15449003293DC1B9006E7A8C /* ngx_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_parse.c; sourceTree = "<group>"; };
+		15449004293DC1B9006E7A8C /* ngx_rbtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_rbtree.h; sourceTree = "<group>"; };
+		15449005293DC1B9006E7A8C /* ngx_rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_rwlock.h; sourceTree = "<group>"; };
+		15449006293DC1B9006E7A8C /* ngx_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_file.h; sourceTree = "<group>"; };
+		15449007293DC1B9006E7A8C /* ngx_proxy_protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_proxy_protocol.c; sourceTree = "<group>"; };
+		15449008293DC1B9006E7A8C /* ngx_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_core.h; sourceTree = "<group>"; };
+		15449009293DC1B9006E7A8C /* ngx_slab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_slab.h; sourceTree = "<group>"; };
+		1544900A293DC1B9006E7A8C /* ngx_syslog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_syslog.h; sourceTree = "<group>"; };
+		1544900B293DC1B9006E7A8C /* ngx_times.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_times.c; sourceTree = "<group>"; };
+		1544900C293DC1B9006E7A8C /* ngx_connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_connection.h; sourceTree = "<group>"; };
+		1544900D293DC1B9006E7A8C /* nginx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nginx.c; sourceTree = "<group>"; };
+		1544900E293DC1B9006E7A8C /* ngx_resolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_resolver.h; sourceTree = "<group>"; };
+		1544900F293DC1B9006E7A8C /* ngx_hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_hash.h; sourceTree = "<group>"; };
+		15449010293DC1BA006E7A8C /* ngx_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_module.c; sourceTree = "<group>"; };
+		15449011293DC1BA006E7A8C /* ngx_hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_hash.c; sourceTree = "<group>"; };
+		15449012293DC1BA006E7A8C /* ngx_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_md5.h; sourceTree = "<group>"; };
+		15449013293DC1BA006E7A8C /* ngx_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_file.c; sourceTree = "<group>"; };
+		15449014293DC1BA006E7A8C /* ngx_palloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_palloc.c; sourceTree = "<group>"; };
+		15449015293DC1BA006E7A8C /* ngx_conf_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_conf_file.c; sourceTree = "<group>"; };
+		15449016293DC1BA006E7A8C /* ngx_resolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_resolver.c; sourceTree = "<group>"; };
+		15449017293DC1BA006E7A8C /* ngx_shmtx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_shmtx.h; sourceTree = "<group>"; };
+		15449018293DC1BA006E7A8C /* ngx_palloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_palloc.h; sourceTree = "<group>"; };
+		15449019293DC1BA006E7A8C /* ngx_inet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_inet.c; sourceTree = "<group>"; };
+		1544901A293DC1BA006E7A8C /* ngx_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_string.h; sourceTree = "<group>"; };
+		1544901B293DC1BA006E7A8C /* ngx_cycle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_cycle.c; sourceTree = "<group>"; };
+		1544901C293DC1BA006E7A8C /* ngx_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_sha1.c; sourceTree = "<group>"; };
+		1544901D293DC1BA006E7A8C /* ngx_murmurhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_murmurhash.h; sourceTree = "<group>"; };
+		1544901E293DC1BA006E7A8C /* ngx_spinlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_spinlock.c; sourceTree = "<group>"; };
+		1544901F293DC1BA006E7A8C /* ngx_murmurhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_murmurhash.c; sourceTree = "<group>"; };
+		15449020293DC1BA006E7A8C /* ngx_md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_md5.c; sourceTree = "<group>"; };
+		15449021293DC1BA006E7A8C /* ngx_parse_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_parse_time.c; sourceTree = "<group>"; };
+		15449022293DC1BA006E7A8C /* ngx_regex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_regex.c; sourceTree = "<group>"; };
+		15449023293DC1BA006E7A8C /* ngx_inet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_inet.h; sourceTree = "<group>"; };
+		15449024293DC1BA006E7A8C /* ngx_syslog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_syslog.c; sourceTree = "<group>"; };
+		15449025293DC1BA006E7A8C /* nginx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nginx.h; sourceTree = "<group>"; };
+		15449026293DC1BA006E7A8C /* ngx_slab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_slab.c; sourceTree = "<group>"; };
+		15449027293DC1BA006E7A8C /* ngx_crc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_crc.h; sourceTree = "<group>"; };
+		15449028293DC1BB006E7A8C /* ngx_string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_string.c; sourceTree = "<group>"; };
+		15449029293DC1BB006E7A8C /* ngx_shmtx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_shmtx.c; sourceTree = "<group>"; };
+		1544902A293DC1BB006E7A8C /* ngx_crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_crc32.h; sourceTree = "<group>"; };
+		1544902B293DC1BB006E7A8C /* ngx_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_array.c; sourceTree = "<group>"; };
+		1544902C293DC1BB006E7A8C /* ngx_open_file_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_open_file_cache.c; sourceTree = "<group>"; };
+		1544902D293DC1BB006E7A8C /* ngx_conf_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_conf_file.h; sourceTree = "<group>"; };
+		1544902E293DC1BB006E7A8C /* ngx_parse_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_parse_time.h; sourceTree = "<group>"; };
+		1544902F293DC1BB006E7A8C /* ngx_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_list.h; sourceTree = "<group>"; };
+		15449030293DC1BB006E7A8C /* ngx_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_parse.h; sourceTree = "<group>"; };
+		15449031293DC1BB006E7A8C /* ngx_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_list.c; sourceTree = "<group>"; };
+		15449032293DC1BB006E7A8C /* ngx_crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_crypt.c; sourceTree = "<group>"; };
+		15449033293DC1BB006E7A8C /* ngx_connection.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_connection.c; sourceTree = "<group>"; };
+		15449034293DC1BB006E7A8C /* ngx_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_queue.h; sourceTree = "<group>"; };
+		15449059293DC68D006E7A8C /* ngx_http_limit_conn_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_limit_conn_module.c; sourceTree = "<group>"; };
+		1544905A293DC68D006E7A8C /* ngx_http_limit_req_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_limit_req_module.c; sourceTree = "<group>"; };
+		1544905B293DC68D006E7A8C /* ngx_http_headers_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_headers_filter_module.c; sourceTree = "<group>"; };
+		1544905C293DC68D006E7A8C /* ngx_http_auth_basic_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_auth_basic_module.c; sourceTree = "<group>"; };
+		1544905D293DC68D006E7A8C /* ngx_http_upstream_zone_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_zone_module.c; sourceTree = "<group>"; };
+		1544905E293DC68D006E7A8C /* ngx_http_uwsgi_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_uwsgi_module.c; sourceTree = "<group>"; };
+		1544905F293DC68D006E7A8C /* ngx_http_auth_request_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_auth_request_module.c; sourceTree = "<group>"; };
+		15449060293DC68D006E7A8C /* ngx_http_upstream_keepalive_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_keepalive_module.c; sourceTree = "<group>"; };
+		15449061293DC68D006E7A8C /* ngx_http_ssi_filter_module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ngx_http_ssi_filter_module.h; sourceTree = "<group>"; };
+		15449062293DC68D006E7A8C /* ngx_http_fastcgi_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_fastcgi_module.c; sourceTree = "<group>"; };
+		15449063293DC68D006E7A8C /* ngx_http_chunked_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_chunked_filter_module.c; sourceTree = "<group>"; };
+		15449064293DC68D006E7A8C /* ngx_http_referer_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_referer_module.c; sourceTree = "<group>"; };
+		15449065293DC68D006E7A8C /* ngx_http_split_clients_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_split_clients_module.c; sourceTree = "<group>"; };
+		15449066293DC68D006E7A8C /* ngx_http_userid_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_userid_filter_module.c; sourceTree = "<group>"; };
+		15449067293DC68D006E7A8C /* ngx_http_ssi_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_ssi_filter_module.c; sourceTree = "<group>"; };
+		15449068293DC68D006E7A8C /* ngx_http_geo_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_geo_module.c; sourceTree = "<group>"; };
+		15449069293DC68D006E7A8C /* ngx_http_upstream_ip_hash_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_ip_hash_module.c; sourceTree = "<group>"; };
+		1544906A293DC68D006E7A8C /* ngx_http_gzip_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_gzip_filter_module.c; sourceTree = "<group>"; };
+		1544906B293DC68D006E7A8C /* ngx_http_static_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_static_module.c; sourceTree = "<group>"; };
+		1544906C293DC68D006E7A8C /* ngx_http_log_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_log_module.c; sourceTree = "<group>"; };
+		1544906D293DC68D006E7A8C /* ngx_http_upstream_least_conn_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_least_conn_module.c; sourceTree = "<group>"; };
+		1544906E293DC68D006E7A8C /* ngx_http_access_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_access_module.c; sourceTree = "<group>"; };
+		1544906F293DC68E006E7A8C /* ngx_http_upstream_random_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_random_module.c; sourceTree = "<group>"; };
+		15449070293DC68E006E7A8C /* ngx_http_random_index_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_random_index_module.c; sourceTree = "<group>"; };
+		15449071293DC68E006E7A8C /* ngx_http_charset_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_charset_filter_module.c; sourceTree = "<group>"; };
+		15449072293DC68E006E7A8C /* ngx_http_autoindex_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_autoindex_module.c; sourceTree = "<group>"; };
+		15449073293DC68E006E7A8C /* ngx_http_proxy_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_proxy_module.c; sourceTree = "<group>"; };
+		15449074293DC68E006E7A8C /* ngx_http_scgi_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_scgi_module.c; sourceTree = "<group>"; };
+		15449075293DC68E006E7A8C /* ngx_http_empty_gif_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_empty_gif_module.c; sourceTree = "<group>"; };
+		15449076293DC68E006E7A8C /* ngx_http_try_files_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_try_files_module.c; sourceTree = "<group>"; };
+		15449077293DC68E006E7A8C /* ngx_http_upstream_hash_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_upstream_hash_module.c; sourceTree = "<group>"; };
+		15449078293DC68E006E7A8C /* ngx_http_rewrite_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_rewrite_module.c; sourceTree = "<group>"; };
+		15449079293DC68E006E7A8C /* ngx_http_index_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_index_module.c; sourceTree = "<group>"; };
+		1544907A293DC68E006E7A8C /* ngx_http_grpc_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_grpc_module.c; sourceTree = "<group>"; };
+		1544907B293DC68E006E7A8C /* ngx_http_memcached_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_memcached_module.c; sourceTree = "<group>"; };
+		1544907C293DC68E006E7A8C /* ngx_http_mirror_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_mirror_module.c; sourceTree = "<group>"; };
+		1544907D293DC68E006E7A8C /* ngx_http_not_modified_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_not_modified_filter_module.c; sourceTree = "<group>"; };
+		1544907E293DC68E006E7A8C /* ngx_http_range_filter_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_range_filter_module.c; sourceTree = "<group>"; };
+		1544907F293DC68E006E7A8C /* ngx_http_browser_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_browser_module.c; sourceTree = "<group>"; };
+		15449080293DC68E006E7A8C /* ngx_http_map_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_http_map_module.c; sourceTree = "<group>"; };
+		154490AC293DC823006E7A8C /* libpcre2-8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpcre2-8.0.dylib"; path = "../../../../../../usr/local/Cellar/pcre2/10.40/lib/libpcre2-8.0.dylib"; sourceTree = "<group>"; };
+		154490AE293DC8D6006E7A8C /* ngx_udp_send.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_udp_send.c; sourceTree = "<group>"; };
+		154490AF293DC8D6006E7A8C /* ngx_writev_chain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_writev_chain.c; sourceTree = "<group>"; };
+		154490B2293DC932006E7A8C /* ngx_send.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ngx_send.c; sourceTree = "<group>"; };
+		158A57D7293D8B6300C51292 /* dummy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dummy; sourceTree = BUILT_PRODUCTS_DIR; };
+		158A57DF293D8B9700C51292 /* web.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = web.c; sourceTree = "<group>"; };
+		158A57E0293D8B9700C51292 /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hash.c; sourceTree = "<group>"; };
+		158A57E1293D8B9700C51292 /* one.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		158A57E2293D8B9700C51292 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		158A57E3293D8B9700C51292 /* crc_table.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc_table.c; sourceTree = "<group>"; };
+		158A57E4293D8B9700C51292 /* nginx_learn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nginx_learn.c; sourceTree = "<group>"; };
+		158A57E6293D8B9700C51292 /* event_darwin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = event_darwin.c; sourceTree = "<group>"; };
+		158C30C1293DD57400A78C83 /* nginx.conf */ = {isa = PBXFileReference; lastKnownFileType = file; name = nginx.conf; path = "nginx-1.23.2/conf/nginx.conf"; sourceTree = SOURCE_ROOT; };
+		158C30C6293DE08600A78C83 /* ngx_http_mysql_module_impl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ngx_http_mysql_module_impl.c; path = third_party/ngx_http_mysql_module/ngx_http_mysql_module_impl.c; sourceTree = "<group>"; };
+		158C30C8293DE08600A78C83 /* ngx_http_mysql_module_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ngx_http_mysql_module_impl.h; path = third_party/ngx_http_mysql_module/ngx_http_mysql_module_impl.h; sourceTree = "<group>"; };
+		158C30C9293DE08600A78C83 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config; path = third_party/ngx_http_mysql_module/config; sourceTree = "<group>"; };
+		158C30CA293DE08600A78C83 /* ngx_quick_link.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ngx_quick_link.c; path = third_party/ngx_http_mysql_module/ngx_quick_link.c; sourceTree = "<group>"; };
+		158C30CB293DE08600A78C83 /* ngx_http_mysql_module.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ngx_http_mysql_module.c; path = third_party/ngx_http_mysql_module/ngx_http_mysql_module.c; sourceTree = "<group>"; };
+		158C30CC293DE08600A78C83 /* ngx_quick_link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ngx_quick_link.h; path = third_party/ngx_http_mysql_module/ngx_quick_link.h; sourceTree = "<group>"; };
+		158C30D1293DE17500A78C83 /* libmysqlclient.21.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmysqlclient.21.dylib; path = ../../../../../../usr/local/Cellar/mysql/8.0.31/lib/libmysqlclient.21.dylib; sourceTree = "<group>"; };
+		158C322A293DF0A000A78C83 /* trie */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = trie; sourceTree = BUILT_PRODUCTS_DIR; };
+		158C322D293DFA2100A78C83 /* ngx_quick_link_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ngx_quick_link_test.c; path = third_party/ngx_http_mysql_module/ngx_quick_link_test.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15448AEE293DA3DA006E7A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158C30D2293DE17500A78C83 /* libmysqlclient.21.dylib in Frameworks */,
+				154490AD293DC823006E7A8C /* libpcre2-8.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158A57D4293D8B6300C51292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158C3223293DF0A000A78C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15305EF923A325BE00CC1624 = {
+			isa = PBXGroup;
+			children = (
+				158C30C2293DE01400A78C83 /* third_party */,
+				158A57D8293D8B6300C51292 /* dummy */,
+				15448AF2293DA3DA006E7A8C /* nginx */,
+				158C30D8293DEFFB00A78C83 /* trie */,
+				1530612523A32A7400CC1624 /* Frameworks */,
+				15305F0323A325BE00CC1624 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15305F0323A325BE00CC1624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				158A57D7293D8B6300C51292 /* dummy */,
+				15448AF1293DA3DA006E7A8C /* nginx */,
+				158C322A293DF0A000A78C83 /* trie */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1530612523A32A7400CC1624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				158C30D1293DE17500A78C83 /* libmysqlclient.21.dylib */,
+				154490AC293DC823006E7A8C /* libpcre2-8.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15448AF2293DA3DA006E7A8C /* nginx */ = {
+			isa = PBXGroup;
+			children = (
+				158C30BF293DD54A00A78C83 /* conf */,
+				15448FAB293DBCC4006E7A8C /* objs */,
+				15448E64293DA501006E7A8C /* core */,
+				15448DDF293DA501006E7A8C /* event */,
+				15448DFD293DA501006E7A8C /* http */,
+				15448D51293DA501006E7A8C /* os */,
+				15448DBF293DA501006E7A8C /* stream */,
+			);
+			path = nginx;
+			sourceTree = "<group>";
+		};
+		15448D51293DA501006E7A8C /* os */ = {
+			isa = PBXGroup;
+			children = (
+				15448D52293DA501006E7A8C /* unix */,
+			);
+			name = os;
+			path = "nginx-1.23.2/src/os";
+			sourceTree = SOURCE_ROOT;
+		};
+		15448D52293DA501006E7A8C /* unix */ = {
+			isa = PBXGroup;
+			children = (
+				154490B2293DC932006E7A8C /* ngx_send.c */,
+				154490AE293DC8D6006E7A8C /* ngx_udp_send.c */,
+				154490AF293DC8D6006E7A8C /* ngx_writev_chain.c */,
+				15448FC3293DBF8F006E7A8C /* ngx_alloc.c */,
+				15448FB1293DBF8E006E7A8C /* ngx_alloc.h */,
+				15448FC7293DBF8F006E7A8C /* ngx_atomic.h */,
+				15448FC2293DBF8E006E7A8C /* ngx_channel.c */,
+				15448FBA293DBF8E006E7A8C /* ngx_channel.h */,
+				15448FBF293DBF8E006E7A8C /* ngx_daemon.c */,
+				15448FB5293DBF8E006E7A8C /* ngx_darwin_config.h */,
+				15448FC4293DBF8F006E7A8C /* ngx_darwin_init.c */,
+				15448FCA293DBF8F006E7A8C /* ngx_darwin_sendfile_chain.c */,
+				15448FD2293DBF8F006E7A8C /* ngx_darwin.h */,
+				15448FB6293DBF8E006E7A8C /* ngx_dlopen.c */,
+				15448FC6293DBF8F006E7A8C /* ngx_dlopen.h */,
+				15448FC5293DBF8F006E7A8C /* ngx_errno.c */,
+				15448FB3293DBF8E006E7A8C /* ngx_errno.h */,
+				15448FC8293DBF8F006E7A8C /* ngx_files.c */,
+				15448FB2293DBF8E006E7A8C /* ngx_files.h */,
+				15448FBC293DBF8E006E7A8C /* ngx_gcc_atomic_x86.h */,
+				15448FC1293DBF8E006E7A8C /* ngx_os.h */,
+				15448FB4293DBF8E006E7A8C /* ngx_posix_init.c */,
+				15448FD4293DBF8F006E7A8C /* ngx_process_cycle.c */,
+				15448FB0293DBF8E006E7A8C /* ngx_process_cycle.h */,
+				15448FB9293DBF8E006E7A8C /* ngx_process.c */,
+				15448FC0293DBF8E006E7A8C /* ngx_process.h */,
+				15448FD7293DBF8F006E7A8C /* ngx_readv_chain.c */,
+				15448FD6293DBF8F006E7A8C /* ngx_recv.c */,
+				15448FCB293DBF8F006E7A8C /* ngx_setaffinity.c */,
+				15448FD5293DBF8F006E7A8C /* ngx_setaffinity.h */,
+				15448FD1293DBF8F006E7A8C /* ngx_setproctitle.c */,
+				15448FC9293DBF8F006E7A8C /* ngx_setproctitle.h */,
+				15448FBB293DBF8E006E7A8C /* ngx_shmem.c */,
+				15448FD3293DBF8F006E7A8C /* ngx_shmem.h */,
+				15448FB7293DBF8E006E7A8C /* ngx_socket.c */,
+				15448FB8293DBF8E006E7A8C /* ngx_socket.h */,
+				15448FCC293DBF8F006E7A8C /* ngx_thread.h */,
+				15448FBE293DBF8E006E7A8C /* ngx_time.c */,
+				15448FBD293DBF8E006E7A8C /* ngx_time.h */,
+				15448FD0293DBF8F006E7A8C /* ngx_udp_recv.c */,
+				15448FCD293DBF8F006E7A8C /* ngx_udp_sendmsg_chain.c */,
+				15448FCE293DBF8F006E7A8C /* ngx_user.c */,
+				15448FCF293DBF8F006E7A8C /* ngx_user.h */,
+			);
+			path = unix;
+			sourceTree = "<group>";
+		};
+		15448DBF293DA501006E7A8C /* stream */ = {
+			isa = PBXGroup;
+			children = (
+				15448DC0293DA501006E7A8C /* ngx_stream_limit_conn_module.c */,
+				15448DC1293DA501006E7A8C /* ngx_stream_set_module.c */,
+				15448DC2293DA501006E7A8C /* ngx_stream_access_module.c */,
+				15448DC4293DA501006E7A8C /* ngx_stream_upstream_random_module.c */,
+				15448DC5293DA501006E7A8C /* ngx_stream_upstream_round_robin.h */,
+				15448DC6293DA501006E7A8C /* ngx_stream_split_clients_module.c */,
+				15448DC7293DA501006E7A8C /* ngx_stream_handler.c */,
+				15448DC8293DA501006E7A8C /* ngx_stream_upstream_zone_module.c */,
+				15448DC9293DA501006E7A8C /* ngx_stream.h */,
+				15448DCA293DA501006E7A8C /* ngx_stream_variables.h */,
+				15448DCB293DA501006E7A8C /* ngx_stream_upstream_least_conn_module.c */,
+				15448DCC293DA501006E7A8C /* ngx_stream_core_module.c */,
+				15448DCD293DA501006E7A8C /* ngx_stream_script.h */,
+				15448DCE293DA501006E7A8C /* ngx_stream_upstream.h */,
+				15448DCF293DA501006E7A8C /* ngx_stream_return_module.c */,
+				15448DD0293DA501006E7A8C /* ngx_stream_map_module.c */,
+				15448DD1293DA501006E7A8C /* ngx_stream_geo_module.c */,
+				15448DD2293DA501006E7A8C /* ngx_stream_realip_module.c */,
+				15448DD3293DA501006E7A8C /* ngx_stream_ssl_preread_module.c */,
+				15448DD4293DA501006E7A8C /* ngx_stream_log_module.c */,
+				15448DD6293DA501006E7A8C /* ngx_stream_variables.c */,
+				15448DD7293DA501006E7A8C /* ngx_stream.c */,
+				15448DD8293DA501006E7A8C /* ngx_stream_upstream_round_robin.c */,
+				15448DDA293DA501006E7A8C /* ngx_stream_upstream_hash_module.c */,
+				15448DDB293DA501006E7A8C /* ngx_stream_proxy_module.c */,
+				15448DDC293DA501006E7A8C /* ngx_stream_write_filter_module.c */,
+				15448DDD293DA501006E7A8C /* ngx_stream_script.c */,
+				15448DDE293DA501006E7A8C /* ngx_stream_upstream.c */,
+			);
+			name = stream;
+			path = "nginx-1.23.2/src/stream";
+			sourceTree = SOURCE_ROOT;
+		};
+		15448DDF293DA501006E7A8C /* event */ = {
+			isa = PBXGroup;
+			children = (
+				15448DE1293DA501006E7A8C /* ngx_event_accept.c */,
+				15448DE2293DA501006E7A8C /* ngx_event_posted.h */,
+				15448DE4293DA501006E7A8C /* ngx_event_udp.c */,
+				15448DE6293DA501006E7A8C /* ngx_event_connect.c */,
+				15448DE7293DA501006E7A8C /* ngx_event.h */,
+				15448DE8293DA501006E7A8C /* ngx_event_timer.h */,
+				15448DEA293DA501006E7A8C /* ngx_event_pipe.c */,
+				15448DEB293DA501006E7A8C /* ngx_event_posted.c */,
+				15448DEC293DA501006E7A8C /* ngx_event.c */,
+				15448DEE293DA501006E7A8C /* ngx_event_timer.c */,
+				15448DEF293DA501006E7A8C /* ngx_event_connect.h */,
+				15448DF0293DA501006E7A8C /* ngx_event_udp.h */,
+				15448DF1293DA501006E7A8C /* modules */,
+				15448DFC293DA501006E7A8C /* ngx_event_pipe.h */,
+			);
+			name = event;
+			path = "nginx-1.23.2/src/event";
+			sourceTree = SOURCE_ROOT;
+		};
+		15448DF1293DA501006E7A8C /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				15448DF5293DA501006E7A8C /* ngx_kqueue_module.c */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		15448DFD293DA501006E7A8C /* http */ = {
+			isa = PBXGroup;
+			children = (
+				15448DFE293DA501006E7A8C /* ngx_http_header_filter_module.c */,
+				15448DFF293DA501006E7A8C /* ngx_http_huff_decode.c */,
+				15448E00293DA501006E7A8C /* ngx_http_core_module.h */,
+				15448E01293DA501006E7A8C /* ngx_http_variables.h */,
+				15448E02293DA501006E7A8C /* ngx_http_huff_encode.c */,
+				15448E03293DA501006E7A8C /* ngx_http_special_response.c */,
+				15448E04293DA501006E7A8C /* ngx_http.c */,
+				15448E05293DA501006E7A8C /* ngx_http_write_filter_module.c */,
+				15448E06293DA501006E7A8C /* ngx_http_upstream.h */,
+				15448E07293DA501006E7A8C /* ngx_http_request_body.c */,
+				15448E08293DA501006E7A8C /* ngx_http_postpone_filter_module.c */,
+				15448E09293DA501006E7A8C /* ngx_http_script.c */,
+				15448E0A293DA501006E7A8C /* ngx_http_upstream_round_robin.c */,
+				15448E0B293DA501006E7A8C /* ngx_http_cache.h */,
+				15448E0C293DA501006E7A8C /* ngx_http_file_cache.c */,
+				15448E0D293DA501006E7A8C /* ngx_http_request.c */,
+				15448E0E293DA501006E7A8C /* v2 */,
+				15448E16293DA501006E7A8C /* ngx_http_variables.c */,
+				15448E17293DA501006E7A8C /* ngx_http_core_module.c */,
+				15448E18293DA501006E7A8C /* ngx_http_upstream.c */,
+				15448E19293DA501006E7A8C /* ngx_http.h */,
+				15448E1A293DA501006E7A8C /* ngx_http_upstream_round_robin.h */,
+				15448E1B293DA501006E7A8C /* ngx_http_config.h */,
+				15448E1C293DA501006E7A8C /* ngx_http_script.h */,
+				15448E1D293DA501006E7A8C /* modules */,
+				15448E5E293DA501006E7A8C /* ngx_http_parse.c */,
+				15448E5F293DA501006E7A8C /* ngx_http_copy_filter_module.c */,
+				15448E60293DA501006E7A8C /* ngx_http_request.h */,
+			);
+			name = http;
+			path = "nginx-1.23.2/src/http";
+			sourceTree = SOURCE_ROOT;
+		};
+		15448E0E293DA501006E7A8C /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				15448E0F293DA501006E7A8C /* ngx_http_v2.h */,
+				15448E10293DA501006E7A8C /* ngx_http_v2_encode.c */,
+				15448E11293DA501006E7A8C /* ngx_http_v2_module.c */,
+				15448E12293DA501006E7A8C /* ngx_http_v2_filter_module.c */,
+				15448E13293DA501006E7A8C /* ngx_http_v2_table.c */,
+				15448E14293DA501006E7A8C /* ngx_http_v2.c */,
+				15448E15293DA501006E7A8C /* ngx_http_v2_module.h */,
+			);
+			path = v2;
+			sourceTree = "<group>";
+		};
+		15448E1D293DA501006E7A8C /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				1544906E293DC68D006E7A8C /* ngx_http_access_module.c */,
+				1544905C293DC68D006E7A8C /* ngx_http_auth_basic_module.c */,
+				1544905F293DC68D006E7A8C /* ngx_http_auth_request_module.c */,
+				15449072293DC68E006E7A8C /* ngx_http_autoindex_module.c */,
+				1544907F293DC68E006E7A8C /* ngx_http_browser_module.c */,
+				15449071293DC68E006E7A8C /* ngx_http_charset_filter_module.c */,
+				15449063293DC68D006E7A8C /* ngx_http_chunked_filter_module.c */,
+				15449075293DC68E006E7A8C /* ngx_http_empty_gif_module.c */,
+				15449062293DC68D006E7A8C /* ngx_http_fastcgi_module.c */,
+				15449068293DC68D006E7A8C /* ngx_http_geo_module.c */,
+				1544907A293DC68E006E7A8C /* ngx_http_grpc_module.c */,
+				1544906A293DC68D006E7A8C /* ngx_http_gzip_filter_module.c */,
+				1544905B293DC68D006E7A8C /* ngx_http_headers_filter_module.c */,
+				15449079293DC68E006E7A8C /* ngx_http_index_module.c */,
+				15449059293DC68D006E7A8C /* ngx_http_limit_conn_module.c */,
+				1544905A293DC68D006E7A8C /* ngx_http_limit_req_module.c */,
+				1544906C293DC68D006E7A8C /* ngx_http_log_module.c */,
+				15449080293DC68E006E7A8C /* ngx_http_map_module.c */,
+				1544907B293DC68E006E7A8C /* ngx_http_memcached_module.c */,
+				1544907C293DC68E006E7A8C /* ngx_http_mirror_module.c */,
+				1544907D293DC68E006E7A8C /* ngx_http_not_modified_filter_module.c */,
+				15449073293DC68E006E7A8C /* ngx_http_proxy_module.c */,
+				15449070293DC68E006E7A8C /* ngx_http_random_index_module.c */,
+				1544907E293DC68E006E7A8C /* ngx_http_range_filter_module.c */,
+				15449064293DC68D006E7A8C /* ngx_http_referer_module.c */,
+				15449078293DC68E006E7A8C /* ngx_http_rewrite_module.c */,
+				15449074293DC68E006E7A8C /* ngx_http_scgi_module.c */,
+				15449065293DC68D006E7A8C /* ngx_http_split_clients_module.c */,
+				15449067293DC68D006E7A8C /* ngx_http_ssi_filter_module.c */,
+				15449061293DC68D006E7A8C /* ngx_http_ssi_filter_module.h */,
+				1544906B293DC68D006E7A8C /* ngx_http_static_module.c */,
+				15449076293DC68E006E7A8C /* ngx_http_try_files_module.c */,
+				15449077293DC68E006E7A8C /* ngx_http_upstream_hash_module.c */,
+				15449069293DC68D006E7A8C /* ngx_http_upstream_ip_hash_module.c */,
+				15449060293DC68D006E7A8C /* ngx_http_upstream_keepalive_module.c */,
+				1544906D293DC68D006E7A8C /* ngx_http_upstream_least_conn_module.c */,
+				1544906F293DC68E006E7A8C /* ngx_http_upstream_random_module.c */,
+				1544905D293DC68D006E7A8C /* ngx_http_upstream_zone_module.c */,
+				15449066293DC68D006E7A8C /* ngx_http_userid_filter_module.c */,
+				1544905E293DC68D006E7A8C /* ngx_http_uwsgi_module.c */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		15448E64293DA501006E7A8C /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1544900D293DC1B9006E7A8C /* nginx.c */,
+				15449025293DC1BA006E7A8C /* nginx.h */,
+				1544902B293DC1BB006E7A8C /* ngx_array.c */,
+				15448FFD293DC1B9006E7A8C /* ngx_array.h */,
+				15449001293DC1B9006E7A8C /* ngx_buf.c */,
+				15448FF4293DC1B8006E7A8C /* ngx_buf.h */,
+				15449015293DC1BA006E7A8C /* ngx_conf_file.c */,
+				1544902D293DC1BB006E7A8C /* ngx_conf_file.h */,
+				15448FF1293DC1B8006E7A8C /* ngx_config.h */,
+				15449033293DC1BB006E7A8C /* ngx_connection.c */,
+				1544900C293DC1B9006E7A8C /* ngx_connection.h */,
+				15449008293DC1B9006E7A8C /* ngx_core.h */,
+				15448FF7293DC1B8006E7A8C /* ngx_cpuinfo.c */,
+				15449027293DC1BA006E7A8C /* ngx_crc.h */,
+				15448FFC293DC1B9006E7A8C /* ngx_crc32.c */,
+				1544902A293DC1BB006E7A8C /* ngx_crc32.h */,
+				15449032293DC1BB006E7A8C /* ngx_crypt.c */,
+				15448FF5293DC1B8006E7A8C /* ngx_crypt.h */,
+				1544901B293DC1BA006E7A8C /* ngx_cycle.c */,
+				15448FFE293DC1B9006E7A8C /* ngx_cycle.h */,
+				15449013293DC1BA006E7A8C /* ngx_file.c */,
+				15449006293DC1B9006E7A8C /* ngx_file.h */,
+				15449011293DC1BA006E7A8C /* ngx_hash.c */,
+				1544900F293DC1B9006E7A8C /* ngx_hash.h */,
+				15449019293DC1BA006E7A8C /* ngx_inet.c */,
+				15449023293DC1BA006E7A8C /* ngx_inet.h */,
+				15449031293DC1BB006E7A8C /* ngx_list.c */,
+				1544902F293DC1BB006E7A8C /* ngx_list.h */,
+				15448FFF293DC1B9006E7A8C /* ngx_log.c */,
+				15448FF8293DC1B9006E7A8C /* ngx_log.h */,
+				15449020293DC1BA006E7A8C /* ngx_md5.c */,
+				15449012293DC1BA006E7A8C /* ngx_md5.h */,
+				15449010293DC1BA006E7A8C /* ngx_module.c */,
+				15448FF9293DC1B9006E7A8C /* ngx_module.h */,
+				1544901F293DC1BA006E7A8C /* ngx_murmurhash.c */,
+				1544901D293DC1BA006E7A8C /* ngx_murmurhash.h */,
+				1544902C293DC1BB006E7A8C /* ngx_open_file_cache.c */,
+				15448FF2293DC1B8006E7A8C /* ngx_open_file_cache.h */,
+				15448FF0293DC1B8006E7A8C /* ngx_output_chain.c */,
+				15449014293DC1BA006E7A8C /* ngx_palloc.c */,
+				15449018293DC1BA006E7A8C /* ngx_palloc.h */,
+				15449021293DC1BA006E7A8C /* ngx_parse_time.c */,
+				1544902E293DC1BB006E7A8C /* ngx_parse_time.h */,
+				15449003293DC1B9006E7A8C /* ngx_parse.c */,
+				15449030293DC1BB006E7A8C /* ngx_parse.h */,
+				15449007293DC1B9006E7A8C /* ngx_proxy_protocol.c */,
+				15449002293DC1B9006E7A8C /* ngx_proxy_protocol.h */,
+				15448FED293DC1B8006E7A8C /* ngx_queue.c */,
+				15449034293DC1BB006E7A8C /* ngx_queue.h */,
+				15448FFB293DC1B9006E7A8C /* ngx_radix_tree.c */,
+				15448FFA293DC1B9006E7A8C /* ngx_radix_tree.h */,
+				15448FF3293DC1B8006E7A8C /* ngx_rbtree.c */,
+				15449004293DC1B9006E7A8C /* ngx_rbtree.h */,
+				15449022293DC1BA006E7A8C /* ngx_regex.c */,
+				15449000293DC1B9006E7A8C /* ngx_regex.h */,
+				15449016293DC1BA006E7A8C /* ngx_resolver.c */,
+				1544900E293DC1B9006E7A8C /* ngx_resolver.h */,
+				15448FEF293DC1B8006E7A8C /* ngx_rwlock.c */,
+				15449005293DC1B9006E7A8C /* ngx_rwlock.h */,
+				1544901C293DC1BA006E7A8C /* ngx_sha1.c */,
+				15448FEE293DC1B8006E7A8C /* ngx_sha1.h */,
+				15449029293DC1BB006E7A8C /* ngx_shmtx.c */,
+				15449017293DC1BA006E7A8C /* ngx_shmtx.h */,
+				15449026293DC1BA006E7A8C /* ngx_slab.c */,
+				15449009293DC1B9006E7A8C /* ngx_slab.h */,
+				1544901E293DC1BA006E7A8C /* ngx_spinlock.c */,
+				15449028293DC1BB006E7A8C /* ngx_string.c */,
+				1544901A293DC1BA006E7A8C /* ngx_string.h */,
+				15449024293DC1BA006E7A8C /* ngx_syslog.c */,
+				1544900A293DC1B9006E7A8C /* ngx_syslog.h */,
+				1544900B293DC1B9006E7A8C /* ngx_times.c */,
+				15448FF6293DC1B8006E7A8C /* ngx_times.h */,
+			);
+			name = core;
+			path = "nginx-1.23.2/src/core";
+			sourceTree = SOURCE_ROOT;
+		};
+		15448FAB293DBCC4006E7A8C /* objs */ = {
+			isa = PBXGroup;
+			children = (
+				15448FAD293DBD03006E7A8C /* ngx_auto_config.h */,
+				15448FAE293DBD03006E7A8C /* ngx_auto_headers.h */,
+				15448FAC293DBD03006E7A8C /* ngx_modules.c */,
+			);
+			name = objs;
+			sourceTree = "<group>";
+		};
+		158A57D8293D8B6300C51292 /* dummy */ = {
+			isa = PBXGroup;
+			children = (
+				158A57E3293D8B9700C51292 /* crc_table.c */,
+				158A57E6293D8B9700C51292 /* event_darwin.c */,
+				158A57E0293D8B9700C51292 /* hash.c */,
+				158A57E2293D8B9700C51292 /* Makefile */,
+				158A57E4293D8B9700C51292 /* nginx_learn.c */,
+				158A57E1293D8B9700C51292 /* one.h */,
+				158A57DF293D8B9700C51292 /* web.c */,
+			);
+			path = dummy;
+			sourceTree = "<group>";
+		};
+		158C30BF293DD54A00A78C83 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				158C30C1293DD57400A78C83 /* nginx.conf */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
+		158C30C2293DE01400A78C83 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				158C30C5293DE06D00A78C83 /* ngx_http_mysql_module */,
+			);
+			name = third_party;
+			sourceTree = "<group>";
+		};
+		158C30C5293DE06D00A78C83 /* ngx_http_mysql_module */ = {
+			isa = PBXGroup;
+			children = (
+				158C30C9293DE08600A78C83 /* config */,
+				158C30C6293DE08600A78C83 /* ngx_http_mysql_module_impl.c */,
+				158C30C8293DE08600A78C83 /* ngx_http_mysql_module_impl.h */,
+				158C30CB293DE08600A78C83 /* ngx_http_mysql_module.c */,
+				158C30CA293DE08600A78C83 /* ngx_quick_link.c */,
+				158C30CC293DE08600A78C83 /* ngx_quick_link.h */,
+			);
+			name = ngx_http_mysql_module;
+			sourceTree = "<group>";
+		};
+		158C30D8293DEFFB00A78C83 /* trie */ = {
+			isa = PBXGroup;
+			children = (
+				158C322D293DFA2100A78C83 /* ngx_quick_link_test.c */,
+			);
+			path = trie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15448AF0293DA3DA006E7A8C /* nginx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15448AF5293DA3DA006E7A8C /* Build configuration list for PBXNativeTarget "nginx" */;
+			buildPhases = (
+				15448AED293DA3DA006E7A8C /* Sources */,
+				15448AEE293DA3DA006E7A8C /* Frameworks */,
+				15448AEF293DA3DA006E7A8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nginx;
+			productName = nginx;
+			productReference = 15448AF1293DA3DA006E7A8C /* nginx */;
+			productType = "com.apple.product-type.tool";
+		};
+		158A57D6293D8B6300C51292 /* dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158A57DB293D8B6300C51292 /* Build configuration list for PBXNativeTarget "dummy" */;
+			buildPhases = (
+				158A57D3293D8B6300C51292 /* Sources */,
+				158A57D4293D8B6300C51292 /* Frameworks */,
+				158A57D5293D8B6300C51292 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dummy;
+			productName = dummy;
+			productReference = 158A57D7293D8B6300C51292 /* dummy */;
+			productType = "com.apple.product-type.tool";
+		};
+		158C3185293DF0A000A78C83 /* trie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 158C3227293DF0A000A78C83 /* Build configuration list for PBXNativeTarget "trie" */;
+			buildPhases = (
+				158C3186293DF0A000A78C83 /* Sources */,
+				158C3223293DF0A000A78C83 /* Frameworks */,
+				158C3226293DF0A000A78C83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trie;
+			productName = nginx;
+			productReference = 158C322A293DF0A000A78C83 /* trie */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15305EFA23A325BE00CC1624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = "Yuan Wang";
+				TargetAttributes = {
+					15448AF0293DA3DA006E7A8C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					158A57D6293D8B6300C51292 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 15305EFD23A325BE00CC1624 /* Build configuration list for PBXProject "nginx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15305EF923A325BE00CC1624;
+			productRefGroup = 15305F0323A325BE00CC1624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				158A57D6293D8B6300C51292 /* dummy */,
+				15448AF0293DA3DA006E7A8C /* nginx */,
+				158C3185293DF0A000A78C83 /* trie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15448AED293DA3DA006E7A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15449044293DC1BB006E7A8C /* ngx_file.c in Sources */,
+				15448FDC293DBF8F006E7A8C /* ngx_shmem.c in Sources */,
+				158C30CD293DE08600A78C83 /* ngx_http_mysql_module_impl.c in Sources */,
+				154490A1293DC68E006E7A8C /* ngx_http_grpc_module.c in Sources */,
+				15448F2B293DA502006E7A8C /* ngx_http.c in Sources */,
+				15448FD9293DBF8F006E7A8C /* ngx_dlopen.c in Sources */,
+				15448FE8293DBF8F006E7A8C /* ngx_udp_recv.c in Sources */,
+				1544903B293DC1BB006E7A8C /* ngx_crc32.c in Sources */,
+				15448FE3293DBF8F006E7A8C /* ngx_files.c in Sources */,
+				15449081293DC68E006E7A8C /* ngx_http_limit_conn_module.c in Sources */,
+				15448F0C293DA502006E7A8C /* ngx_stream_upstream_round_robin.c in Sources */,
+				158C30CF293DE08600A78C83 /* ngx_quick_link.c in Sources */,
+				15448FDA293DBF8F006E7A8C /* ngx_socket.c in Sources */,
+				15449085293DC68E006E7A8C /* ngx_http_upstream_zone_module.c in Sources */,
+				1544908F293DC68E006E7A8C /* ngx_http_geo_module.c in Sources */,
+				15448F18293DA502006E7A8C /* ngx_event_connect.c in Sources */,
+				15448FE2293DBF8F006E7A8C /* ngx_errno.c in Sources */,
+				15448FE5293DBF8F006E7A8C /* ngx_setaffinity.c in Sources */,
+				15448FEC293DBF8F006E7A8C /* ngx_readv_chain.c in Sources */,
+				15448FDF293DBF8F006E7A8C /* ngx_channel.c in Sources */,
+				15448F05293DA502006E7A8C /* ngx_stream_geo_module.c in Sources */,
+				15448F0A293DA502006E7A8C /* ngx_stream_variables.c in Sources */,
+				15449046293DC1BB006E7A8C /* ngx_conf_file.c in Sources */,
+				15448EFB293DA502006E7A8C /* ngx_stream_set_module.c in Sources */,
+				1544904C293DC1BB006E7A8C /* ngx_murmurhash.c in Sources */,
+				15449094293DC68E006E7A8C /* ngx_http_upstream_least_conn_module.c in Sources */,
+				15449040293DC1BB006E7A8C /* ngx_times.c in Sources */,
+				15449035293DC1BB006E7A8C /* ngx_queue.c in Sources */,
+				15449057293DC1BB006E7A8C /* ngx_crypt.c in Sources */,
+				1544909B293DC68E006E7A8C /* ngx_http_scgi_module.c in Sources */,
+				15449089293DC68E006E7A8C /* ngx_http_fastcgi_module.c in Sources */,
+				15448F2A293DA502006E7A8C /* ngx_http_special_response.c in Sources */,
+				15448FDD293DBF8F006E7A8C /* ngx_time.c in Sources */,
+				15449036293DC1BB006E7A8C /* ngx_rwlock.c in Sources */,
+				15448F30293DA502006E7A8C /* ngx_http_upstream_round_robin.c in Sources */,
+				15449045293DC1BB006E7A8C /* ngx_palloc.c in Sources */,
+				15448F38293DA502006E7A8C /* ngx_http_variables.c in Sources */,
+				15449047293DC1BB006E7A8C /* ngx_resolver.c in Sources */,
+				15448F33293DA502006E7A8C /* ngx_http_v2_encode.c in Sources */,
+				1544903C293DC1BB006E7A8C /* ngx_log.c in Sources */,
+				15448FDB293DBF8F006E7A8C /* ngx_process.c in Sources */,
+				1544904F293DC1BB006E7A8C /* ngx_regex.c in Sources */,
+				15448FD8293DBF8F006E7A8C /* ngx_posix_init.c in Sources */,
+				15448F73293DA502006E7A8C /* ngx_http_parse.c in Sources */,
+				15448EFF293DA502006E7A8C /* ngx_stream_handler.c in Sources */,
+				15448F02293DA502006E7A8C /* ngx_stream_core_module.c in Sources */,
+				15449048293DC1BB006E7A8C /* ngx_inet.c in Sources */,
+				154490A6293DC68E006E7A8C /* ngx_http_browser_module.c in Sources */,
+				154490A0293DC68E006E7A8C /* ngx_http_index_module.c in Sources */,
+				15448F10293DA502006E7A8C /* ngx_stream_write_filter_module.c in Sources */,
+				15448EFC293DA502006E7A8C /* ngx_stream_access_module.c in Sources */,
+				154490B3293DC932006E7A8C /* ngx_send.c in Sources */,
+				15448F74293DA502006E7A8C /* ngx_http_copy_filter_module.c in Sources */,
+				1544908C293DC68E006E7A8C /* ngx_http_split_clients_module.c in Sources */,
+				15448F1D293DA502006E7A8C /* ngx_event_timer.c in Sources */,
+				15448F36293DA502006E7A8C /* ngx_http_v2_table.c in Sources */,
+				15448F31293DA502006E7A8C /* ngx_http_file_cache.c in Sources */,
+				15448F2D293DA502006E7A8C /* ngx_http_request_body.c in Sources */,
+				1544909E293DC68E006E7A8C /* ngx_http_upstream_hash_module.c in Sources */,
+				15448F11293DA502006E7A8C /* ngx_stream_script.c in Sources */,
+				15448F04293DA502006E7A8C /* ngx_stream_map_module.c in Sources */,
+				15449054293DC1BB006E7A8C /* ngx_array.c in Sources */,
+				15448FE6293DBF8F006E7A8C /* ngx_udp_sendmsg_chain.c in Sources */,
+				15448F08293DA502006E7A8C /* ngx_stream_log_module.c in Sources */,
+				1544909F293DC68E006E7A8C /* ngx_http_rewrite_module.c in Sources */,
+				15449058293DC1BB006E7A8C /* ngx_connection.c in Sources */,
+				15449082293DC68E006E7A8C /* ngx_http_limit_req_module.c in Sources */,
+				1544909D293DC68E006E7A8C /* ngx_http_try_files_module.c in Sources */,
+				15448F32293DA502006E7A8C /* ngx_http_request.c in Sources */,
+				15449093293DC68E006E7A8C /* ngx_http_log_module.c in Sources */,
+				15449053293DC1BB006E7A8C /* ngx_shmtx.c in Sources */,
+				15449097293DC68E006E7A8C /* ngx_http_random_index_module.c in Sources */,
+				15449039293DC1BB006E7A8C /* ngx_cpuinfo.c in Sources */,
+				15448F1B293DA502006E7A8C /* ngx_event_posted.c in Sources */,
+				1544904A293DC1BB006E7A8C /* ngx_sha1.c in Sources */,
+				15448F2F293DA502006E7A8C /* ngx_http_script.c in Sources */,
+				15449095293DC68E006E7A8C /* ngx_http_access_module.c in Sources */,
+				15448F20293DA502006E7A8C /* ngx_kqueue_module.c in Sources */,
+				15448F1C293DA502006E7A8C /* ngx_event.c in Sources */,
+				15449090293DC68E006E7A8C /* ngx_http_upstream_ip_hash_module.c in Sources */,
+				15449041293DC1BB006E7A8C /* nginx.c in Sources */,
+				15448FE4293DBF8F006E7A8C /* ngx_darwin_sendfile_chain.c in Sources */,
+				15448F27293DA502006E7A8C /* ngx_http_header_filter_module.c in Sources */,
+				15449037293DC1BB006E7A8C /* ngx_output_chain.c in Sources */,
+				15449087293DC68E006E7A8C /* ngx_http_auth_request_module.c in Sources */,
+				154490B1293DC8D6006E7A8C /* ngx_writev_chain.c in Sources */,
+				15449056293DC1BB006E7A8C /* ngx_list.c in Sources */,
+				15448F3A293DA502006E7A8C /* ngx_http_upstream.c in Sources */,
+				15448F0B293DA502006E7A8C /* ngx_stream.c in Sources */,
+				1544903E293DC1BB006E7A8C /* ngx_parse.c in Sources */,
+				15448F07293DA502006E7A8C /* ngx_stream_ssl_preread_module.c in Sources */,
+				1544908D293DC68E006E7A8C /* ngx_http_userid_filter_module.c in Sources */,
+				15448F14293DA502006E7A8C /* ngx_event_accept.c in Sources */,
+				15449096293DC68E006E7A8C /* ngx_http_upstream_random_module.c in Sources */,
+				1544908B293DC68E006E7A8C /* ngx_http_referer_module.c in Sources */,
+				154490A7293DC68E006E7A8C /* ngx_http_map_module.c in Sources */,
+				15448FEB293DBF8F006E7A8C /* ngx_recv.c in Sources */,
+				15449099293DC68E006E7A8C /* ngx_http_autoindex_module.c in Sources */,
+				15448F00293DA502006E7A8C /* ngx_stream_upstream_zone_module.c in Sources */,
+				15449092293DC68E006E7A8C /* ngx_http_static_module.c in Sources */,
+				15449052293DC1BB006E7A8C /* ngx_string.c in Sources */,
+				15448FAF293DBD03006E7A8C /* ngx_modules.c in Sources */,
+				1544903F293DC1BB006E7A8C /* ngx_proxy_protocol.c in Sources */,
+				15449055293DC1BB006E7A8C /* ngx_open_file_cache.c in Sources */,
+				1544904E293DC1BB006E7A8C /* ngx_parse_time.c in Sources */,
+				15448F12293DA502006E7A8C /* ngx_stream_upstream.c in Sources */,
+				15449083293DC68E006E7A8C /* ngx_http_headers_filter_module.c in Sources */,
+				15448F2E293DA502006E7A8C /* ngx_http_postpone_filter_module.c in Sources */,
+				15448F1A293DA502006E7A8C /* ngx_event_pipe.c in Sources */,
+				15448F29293DA502006E7A8C /* ngx_http_huff_encode.c in Sources */,
+				15449088293DC68E006E7A8C /* ngx_http_upstream_keepalive_module.c in Sources */,
+				15448F2C293DA502006E7A8C /* ngx_http_write_filter_module.c in Sources */,
+				1544909A293DC68E006E7A8C /* ngx_http_proxy_module.c in Sources */,
+				15449043293DC1BB006E7A8C /* ngx_hash.c in Sources */,
+				15448FE1293DBF8F006E7A8C /* ngx_darwin_init.c in Sources */,
+				15448F37293DA502006E7A8C /* ngx_http_v2.c in Sources */,
+				1544904B293DC1BB006E7A8C /* ngx_spinlock.c in Sources */,
+				15449050293DC1BB006E7A8C /* ngx_syslog.c in Sources */,
+				15448FEA293DBF8F006E7A8C /* ngx_process_cycle.c in Sources */,
+				15449091293DC68E006E7A8C /* ngx_http_gzip_filter_module.c in Sources */,
+				15449086293DC68E006E7A8C /* ngx_http_uwsgi_module.c in Sources */,
+				154490A2293DC68E006E7A8C /* ngx_http_memcached_module.c in Sources */,
+				15449042293DC1BB006E7A8C /* ngx_module.c in Sources */,
+				15448F0F293DA502006E7A8C /* ngx_stream_proxy_module.c in Sources */,
+				15448FE9293DBF8F006E7A8C /* ngx_setproctitle.c in Sources */,
+				15448FE7293DBF8F006E7A8C /* ngx_user.c in Sources */,
+				15448F01293DA502006E7A8C /* ngx_stream_upstream_least_conn_module.c in Sources */,
+				15448EFA293DA502006E7A8C /* ngx_stream_limit_conn_module.c in Sources */,
+				15449098293DC68E006E7A8C /* ngx_http_charset_filter_module.c in Sources */,
+				15448F28293DA502006E7A8C /* ngx_http_huff_decode.c in Sources */,
+				158C30D0293DE08600A78C83 /* ngx_http_mysql_module.c in Sources */,
+				15448FE0293DBF8F006E7A8C /* ngx_alloc.c in Sources */,
+				15448F03293DA502006E7A8C /* ngx_stream_return_module.c in Sources */,
+				1544908A293DC68E006E7A8C /* ngx_http_chunked_filter_module.c in Sources */,
+				15448F34293DA502006E7A8C /* ngx_http_v2_module.c in Sources */,
+				15448F06293DA502006E7A8C /* ngx_stream_realip_module.c in Sources */,
+				15449084293DC68E006E7A8C /* ngx_http_auth_basic_module.c in Sources */,
+				154490B0293DC8D6006E7A8C /* ngx_udp_send.c in Sources */,
+				1544904D293DC1BB006E7A8C /* ngx_md5.c in Sources */,
+				15448F35293DA502006E7A8C /* ngx_http_v2_filter_module.c in Sources */,
+				15448EFD293DA502006E7A8C /* ngx_stream_upstream_random_module.c in Sources */,
+				154490A5293DC68E006E7A8C /* ngx_http_range_filter_module.c in Sources */,
+				15449051293DC1BB006E7A8C /* ngx_slab.c in Sources */,
+				15449049293DC1BB006E7A8C /* ngx_cycle.c in Sources */,
+				15448F16293DA502006E7A8C /* ngx_event_udp.c in Sources */,
+				15448FDE293DBF8F006E7A8C /* ngx_daemon.c in Sources */,
+				15448EFE293DA502006E7A8C /* ngx_stream_split_clients_module.c in Sources */,
+				15449038293DC1BB006E7A8C /* ngx_rbtree.c in Sources */,
+				1544903A293DC1BB006E7A8C /* ngx_radix_tree.c in Sources */,
+				154490A4293DC68E006E7A8C /* ngx_http_not_modified_filter_module.c in Sources */,
+				1544903D293DC1BB006E7A8C /* ngx_buf.c in Sources */,
+				1544908E293DC68E006E7A8C /* ngx_http_ssi_filter_module.c in Sources */,
+				15448F0E293DA502006E7A8C /* ngx_stream_upstream_hash_module.c in Sources */,
+				1544909C293DC68E006E7A8C /* ngx_http_empty_gif_module.c in Sources */,
+				154490A3293DC68E006E7A8C /* ngx_http_mirror_module.c in Sources */,
+				15448F39293DA502006E7A8C /* ngx_http_core_module.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158A57D3293D8B6300C51292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158A57EB293D8B9700C51292 /* crc_table.c in Sources */,
+				158A57E8293D8B9700C51292 /* web.c in Sources */,
+				158A57E9293D8B9700C51292 /* hash.c in Sources */,
+				158A57EE293D8B9700C51292 /* event_darwin.c in Sources */,
+				158A57EC293D8B9700C51292 /* nginx_learn.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		158C3186293DF0A000A78C83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158C322C293DF25B00A78C83 /* ngx_quick_link.c in Sources */,
+				158C322E293DFA2100A78C83 /* ngx_quick_link_test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15305F0723A325BE00CC1624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15305F0823A325BE00CC1624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15448AF6293DA3DA006E7A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = __APPLE_USE_RFC_3542;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/nginx-1.23.2/src/**",
+					"${PROJECT_DIR}/nginx-1.23.2/objs/**",
+					/usr/local/opt/pcre2/include,
+					/usr/local/Cellar/mysql/8.0.31/include/mysql,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/pcre2/10.40/lib,
+					/usr/local/Cellar/mysql/8.0.31/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		15448AF7293DA3DA006E7A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = __APPLE_USE_RFC_3542;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/nginx-1.23.2/src/**",
+					"${PROJECT_DIR}/nginx-1.23.2/objs/**",
+					/usr/local/opt/pcre2/include,
+					/usr/local/Cellar/mysql/8.0.31/include/mysql,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/pcre2/10.40/lib,
+					/usr/local/Cellar/mysql/8.0.31/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		158A57DC293D8B6300C51292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		158A57DD293D8B6300C51292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		158C3228293DF0A000A78C83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = __APPLE_USE_RFC_3542;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/nginx-1.23.2/src/**",
+					"${PROJECT_DIR}/nginx-1.23.2/objs/**",
+					/usr/local/opt/pcre2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/pcre2/10.40/lib,
+					/usr/local/Cellar/mysql/8.0.31/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		158C3229293DF0A000A78C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = __APPLE_USE_RFC_3542;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/nginx-1.23.2/src/**",
+					"${PROJECT_DIR}/nginx-1.23.2/objs/**",
+					/usr/local/opt/pcre2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/pcre2/10.40/lib,
+					/usr/local/Cellar/mysql/8.0.31/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15305EFD23A325BE00CC1624 /* Build configuration list for PBXProject "nginx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15305F0723A325BE00CC1624 /* Debug */,
+				15305F0823A325BE00CC1624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15448AF5293DA3DA006E7A8C /* Build configuration list for PBXNativeTarget "nginx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15448AF6293DA3DA006E7A8C /* Debug */,
+				15448AF7293DA3DA006E7A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158A57DB293D8B6300C51292 /* Build configuration list for PBXNativeTarget "dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158A57DC293D8B6300C51292 /* Debug */,
+				158A57DD293D8B6300C51292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		158C3227293DF0A000A78C83 /* Build configuration list for PBXNativeTarget "trie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				158C3228293DF0A000A78C83 /* Debug */,
+				158C3229293DF0A000A78C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15305EFA23A325BE00CC1624 /* Project object */;
+}

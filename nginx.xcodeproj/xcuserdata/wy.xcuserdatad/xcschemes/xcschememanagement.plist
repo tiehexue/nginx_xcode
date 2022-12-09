@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>dummy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>nginx.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>nginx2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>trie.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>15305F0123A325BE00CC1624</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15448AF0293DA3DA006E7A8C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>158A57D6293D8B6300C51292</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>158C30DF293DF04100A78C83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>158C3185293DF0A000A78C83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15A1FFCA23A75FD0007549C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
